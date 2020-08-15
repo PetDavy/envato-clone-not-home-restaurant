@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Restaurant</title>
+	<link rel="stylesheet" href="home-style.css">
+	<script src="https://kit.fontawesome.com/38275cb7f9.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="parallax/parallax.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+	<header class="menu">
+		<div class="logo">Abud <span class="orange">.</span></div>
+		<nav>
+			<ul>
+				<li><a data-scroll href="#home">home</a></li>
+				<li><a data-scroll href="#menu">menu</a></li>
+				<li><a data-scroll href="#photos">photos</a></li>
+				<li><a data-scroll href="#support">support</a></li>
+				<li><a data-scroll href="#info">info</a></li>
+			</ul>
+		</nav>
+		<div class="search">
+			<i class="fas fa-search"></i>
+		</div>
+	</header>
+	<div class="showcase-front" data-parallax="scroll" data-image-src="img/background.jpg" id="home">
+		<h1>Not Home Restaurant</h1>
+		<h2>explore our menu</h2>
+		<a data-scroll href="#menu"><i class="fas fa-chevron-down down"></a></i>
+	</div>
+
+	<!--(1) ----------------------------------------------------------------->
+
+	<div class="showcase-menu" >
+		<div class="menu-list" id="menu">
+			<div class="menu-table">
+				<ul class="left-column">
+					<li class="meal-title">Starters</li>                                 <!-- <== Starters  -->
+					<li class="meal">
+						<p class="meal-name">hot cheese sandwiches</p>
+						<p class="meal-ingredients">Bread, hard cheese & avocado</p>
+						<p class="meal-price">$5.50</p>
+					</li>
+					<li class="meal">
+						<p class="meal-name">scrambled eggs in Petro style</p>
+						<p class="meal-ingredients">Eggs, fried onions, tomato & sausages</p>
+						<p class="meal-price">$10.50</p>
+					</li>
+					<li class="meal">
+						<p class="meal-name">warmed up yesterday</p>
+						<p class="meal-ingredients">Anything from yesterday heated up</p>
+						<p class="meal-price">$20.00</p>
+					</li>
+					<li class="meal-title">Desserts</li>                                   <!-- <== Desserts  -->
+					<li class="meal">
+						<p class="meal-name">banana thing</p>
+						<p class="meal-ingredients">Bananas, kefir, sugar & cinnamon</p>
+						<p class="meal-price">$33.50</p>
+					</li>
+					<li class="meal">
+						<p class="meal-name">cake from Vika</p>
+						<p class="meal-ingredients">Mascarpone cheese, chocolate & cookie base</p>
+						<p class="meal-price">$50.00</p>
+					</li>
+					<li class="meal">
+						<p class="meal-name">blueberries in sour cream</p>
+						<p class="meal-ingredients">Blueberries in sour cream with sugar</p>
+						<p class="meal-price">$20.00</p>
+					</li>
+					<li class="meal">
+						<p class="meal-name">сhocolate with tea</p>
+						<p class="meal-ingredients">Chocolate & steamy tea</p>
+						<p class="meal-price">$7.00</p>
+					</li>				
+				</ul>
+				<ul class="right-column">
+					<li class="meal-title">Lunch Sets</li>	                           <!-- <== Lunch Sets  -->
+					<li class="meal">
+						<p class="meal-name">сhebureks</p>
+						<p class="meal-ingredients">Ground beef & onion in dough</p>
+						<p class="meal-price">$35.00</p>
+					</li>		
+					<li class="meal">
+						<p class="meal-name">Soup with frozen mushrooms</p>
+						<p class="meal-ingredients">Frozen mushrooms, potatoes, frying stuff, flour & cream</p>
+						<p class="meal-price">$30.00</p>
+					</li>		
+					<li class="meal">
+						<p class="meal-name">fried potatoes</p>
+						<p class="meal-ingredients">Potatoes & onion</p>
+						<p class="meal-price">$15.00</p>
+					</li>		
+					<li class="meal">
+						<p class="meal-name">chicken fried in sour cream</p>
+						<p class="meal-ingredients">Chicken fillet, onions, tomatoes & sour cream</p>
+						<p class="meal-price">$32.00</p>
+					</li>		
+					<li class="meal">
+						<p class="meal-name">tender mashed potatoes like a dream</p>
+						<p class="meal-ingredients">Potatoes, onion, milk, butter</p>
+						<p class="meal-price">$20.00</p>
+					</li>		
+					<li class="meal">
+						<p class="meal-name">just rice with roast</p>
+						<p class="meal-ingredients">Rice, onion, tomstoes & carrots</p>
+						<p class="meal-price">$12.50</p>
+					</li>		
+					<li class="meal">
+						<p class="meal-name">stewed cabbage</p>
+						<p class="meal-ingredients">Cabbage, onion, tomato sauce & beans</p>
+						<p class="meal-price">$25.50</p>
+					</li>		
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<!-- (2)-------------------------------------------------------------------->
+
+	<div class="gray-buffer">
+		<h2 class="buffer-text">Experience the first class cuisine & service</h2>
+	</div>
+
+<!-- (3)----------------------------------------------------------------------->
+
+	<div class="showcase-photo" id="photos">
+		<div class="left-b photo" style="background-image: url(img/restaurant-design.jpg)"><span></span></div>
+		<div class="right-b">
+			<div class="dishes-photo photo" style="background-image: url(img/Fish.jpg)"><span></span></div>
+			<div class="dishes-photo photo" style="background-image: url(img/Tort.jpg)"><span></span></div>
+			<div class="dishes-photo photo" style="background-image: url(img/Butterbread.jpg)"><span></span></div>
+			<div class="dishes-photo photo" style="background-image: url(img/chiken.jpg)"><span></span></div>
+		</div>
+		<!-- GALLERY -->
+		<div class="gallery">
+			<div class="photo-frame"></div>
+
+			<div class="left-btn btn"><i class="fas fa-chevron-left"></i></div>
+			<div class="right-btn btn"><i class="fas fa-chevron-right"></i></div>
+			<div class="close-btn"></div>
+		</div>
+
+	</div>
+	
+
+<!-- (4)------------------------------------------------------------------------->
+
+	<div class="showcase-support" id="support">
+		<div class="support-conteiner">
+			<div class="supporters"></div>
+			<div class="indicators"></div>
+		</div>
+	</div>
+<!--(5) -------------------------------------------------------------------------->
+
+	<div class="showcase-info" data-parallax="scroll" data-image-src="img/info.jpg" id="info">
+		<div class="left-info">
+			<p class="info-title">Come and discover our tasty menu</p>
+			<p class="address">restaurant address</p>
+			<p class="address-text">2015, Hamdan street, Abu-Dhabi, UAE</p>
+		</div>
+		<div class="right-info">
+			<ul class="timing">
+				<li>
+					<div class="days">MONDAY - THURSDAY</div>
+					<div class="hours">9:00AM - 10:00PM</div>
+				</li>
+				<li>
+					<div class="days">FRIDAY - SUNDAY</div>
+					<div class="hours">11:00AM - 10:00PM</div>
+				</li>
+				<li><button class="book-btn">book now</button></li>
+			</ul>
+		</div>
+	</div>
+
+<!--(6)--------------------------------------------------------------------------->
+
+	<footer>
+		<ul class="links">
+			<li><a href="#">our blog</a></li>
+			<li><a href="#">latest projects</a></li>
+			<li><a href="#">contact us</a></li>
+		</ul>
+		<div class="copy"><p>&copy Petro Davybida 2020. Made with <span class="red">♥</span></p></div>
+	</footer>
+	<a data-scroll href="#home" class="up-btn"><i class="fas fa-chevron-up"></i></a>
+
+	<script src="index-js.js"></script>
+</body>
+</html>
